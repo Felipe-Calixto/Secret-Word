@@ -1,0 +1,86 @@
+.points {
+    margin-top: 1rem;
+}
+
+.game h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.game h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+
+.type {
+    color: orange;
+    font-weight: bold;
+}
+
+.wordConteiner {
+    display: flex;
+    justify-content: center;
+    padding: .2rem;
+    margin-top: .5rem;
+}
+
+.letter, .whiteBox {
+    background-color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-size: 70px;
+    padding: .5rem;
+    line-height: 1.5;
+    border: 4px solid orange;
+    width: 100px;
+    height: 100px;
+}
+
+.inputConteiner {
+    margin-top: 3rem;
+}
+
+.inputConteiner input {
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    outline: none;
+}
+
+.inputConteiner button {
+    font-size: 30px;
+    font-weight: bold;
+    height: 3.2rem;
+    padding: .2rem 1.5rem;
+    border: 2px solid orange;
+    background-color: orange;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+.inputConteiner button:hover {
+    transition: .3s;
+    background-color: transparent;
+    color: orange;
+}
+
+.inputConteiner p {
+    margin-top: .5rem;
+}
+
+.inputConteiner p span {
+    color: orange;
+}
+
+.wrongLetterConteiner {
+    margin-top: 2rem;
+}
+
+.wrongLetterConteiner p {
+    margin-top: .4rem;
+}

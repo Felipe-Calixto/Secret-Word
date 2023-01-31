@@ -1,0 +1,34 @@
+.start h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+.start h3 {
+    margin-top: .5rem;
+}
+
+.start p{
+    margin-top: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.start button {
+    margin-top: .5rem;
+    padding: .2rem;
+    font-size: 22px;
+    font-weight: bold;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    background-color: orange;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.start button:hover {
+    background-color: transparent;
+    color: orange;
+    transition: .3s;
+}
